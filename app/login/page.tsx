@@ -212,11 +212,7 @@ function AuthFormComponent({
                         layoutId="signInButton"
                         className="flex items-center justify-center"
                     >
-                        <motion.span layoutId="signInText">
-                            {authState === AuthState.SigningIn
-                                ? 'Signing In...'
-                                : 'Sign In'}
-                        </motion.span>
+                        <motion.span layoutId="signInText">Sign In</motion.span>
 
                         {isEmailValid && (
                             <MotionMoveRight
