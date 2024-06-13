@@ -29,7 +29,7 @@ Tech Stack:
 
     ```bash
     git clone git@github.com:toughyear/supabase-user-management-dashboard.git
-    cd carbon-customer-portal
+    cd supabase-user-management-dashboard
     ```
 
 2. **Install dependencies**

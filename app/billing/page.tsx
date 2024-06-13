@@ -1,16 +1,14 @@
-import { Button } from '@/components/ui/button';
 import { authenticatePage } from '@/utils/auth';
-import { Link2 } from 'lucide-react';
+
 import React from 'react';
+import ConnectToStripeButton from './connect-to-stripe-button';
 
 async function Billing() {
     await authenticatePage();
 
     return (
-        <div className="flex min-h-48 items-center justify-center">
-            <Button variant="default">
-                Connect to Stripe <Link2 className="ml-2" />
-            </Button>
+        <div className="flex h-full min-h-48 w-full items-center justify-center">
+            <ConnectToStripeButton />
         </div>
     );
 }

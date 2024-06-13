@@ -27,14 +27,14 @@ function OrgSelector() {
     if (loading || !orgs.length) {
         return (
             <Link href="/">
-                <h1 className="text-2xl font-bold text-zinc-700">Carbon</h1>
+                <h1 className="text-2xl font-bold text-zinc-700">Helium</h1>
             </Link>
         );
     }
     return (
         <div className="flex items-center">
             <Link href="/">
-                <h1 className="text-2xl font-bold text-zinc-700">Carbon</h1>
+                <h1 className="text-2xl font-bold text-zinc-700">Helium</h1>
             </Link>
             <div className="flex items-center animate-in">
                 <div className="mx-4 h-6 w-[1px] rotate-[20deg] bg-zinc-400"></div>

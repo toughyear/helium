@@ -6,12 +6,11 @@ function Footer() {
             <p>
                 Powered by{' '}
                 <a
-                    href="https://carbon.ai/?utm_source=rajeevnaruka.com"
+                    href="https://ajeevnaruka.com/projects"
                     target="_blank"
                     className="font-bold hover:underline"
-                    rel="noreferrer"
                 >
-                    Carbon AI
+                    Helium AI
                 </a>
             </p>
         </footer>

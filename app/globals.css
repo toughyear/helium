@@ -102,3 +102,19 @@
         opacity: 1;
     }
 }
+
+
+.image-parallax {
+    overflow: hidden;
+}
+
+.image-parallax img {
+    transition: transform 0.3s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-parallax:hover img {
+    transform: scale(1.1);
+}

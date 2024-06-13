@@ -12,8 +12,8 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
     metadataBase: new URL(defaultUrl),
-    title: 'CarbonAI: Customer Portal',
-    description: 'Admin console for CarbonAI customers.',
+    title: 'Helium: Console',
+    description: 'Admin console for Helium AI customers.',
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
                     <Syncer />
                     <Navbar />
                     <SecondaryNavbar />
-                    <div className="w-full max-w-4xl px-3 opacity-0 animate-in">
+                    <div className="flex w-full max-w-4xl flex-grow px-3 opacity-0 animate-in">
                         {children}
                     </div>
                     <Footer />

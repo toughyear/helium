@@ -59,7 +59,15 @@ export default function UserNav() {
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuGroup>
-                    <DropdownMenuItem>Manage API Keys</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => router.push('/api-keys')}>
+                        Manage API Keys
+                    </DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => router.push('/settings')}>
+                        Invite Team
+                    </DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => router.push('/billing')}>
+                        Manage Billing
+                    </DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>

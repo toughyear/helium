@@ -27,7 +27,7 @@ function OrgCreationSuccess() {
                     <span className="leading-tight underline underline-offset-4">
                         {activeOrg.org_name}
                     </span>{' '}
-                    is now active on of Carbon. You can now manage your
+                    is now active on of Helium. You can now manage your
                     organization, invite members and create API keys here.
                 </h2>
             </div>

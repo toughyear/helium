@@ -62,8 +62,15 @@ function UsageDashboard() {
     }
 
     return (
-        <div className="mt-10 flex w-full flex-col">
-            <h1 className="text-md mb-5 font-semibold">API Usage</h1>
+        <div className="mt-20 flex w-full flex-col items-center">
+            <div className="mb-5 flex flex-col items-center">
+                <h1 className="text-md font-mono font-normal">API Usage</h1>
+                <p className="relative flex items-center text-sm text-zinc-400">
+                    <div className="absolute mr-2 h-2 w-2 animate-ping rounded-full bg-green-500"></div>
+                    <div className="mr-2 h-2 w-2 rounded-full bg-green-500"></div>
+                    updated few minutes ago
+                </p>
+            </div>
             <div className="w-full max-w-xl">
                 <ResponsiveContainer width="100%" height={350}>
                     <BarChart data={data}>
@@ -84,7 +91,7 @@ function UsageDashboard() {
                         <Bar
                             dataKey="total"
                             fill="currentColor"
-                            radius={[4, 4, 0, 0]}
+                            radius={[4, 4, 4, 4]}
                             className="fill-zinc-800"
                         />
                     </BarChart>

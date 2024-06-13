@@ -73,7 +73,7 @@ function CreateAPIKeys() {
                     <DialogHeader>
                         <DialogTitle>Create New Key</DialogTitle>
                         <DialogDescription>
-                            Anyone with this key will be able to access Carbon
+                            Anyone with this key will be able to access Helium
                             APIs on behalf of your org. You can disable or
                             delete the key at any time.
                         </DialogDescription>

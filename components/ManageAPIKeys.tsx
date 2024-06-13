@@ -16,7 +16,7 @@ function ManageAPIKeys() {
     const { apiKeys } = useAPIKeysStore();
 
     return (
-        <div className="w-full">
+        <div className="h-full w-full">
             <h1 className="font-semibold">Manage API Keys</h1>
             <h1 className="mb-5"> Create or manage your API keys here.</h1>
             <CreateAPIKeys />
