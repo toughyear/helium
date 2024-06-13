@@ -8,6 +8,9 @@ Tech Stack:
 -   Next.js
 -   TailwindCSS
 
+  
+![image](https://raw.githubusercontent.com/toughyear/blog-uploads/main/uploads/helium/landing.png)
+
 ## Features
 
 -   **Supabase Authentication**: Secure and straightforward user authentication.
@@ -15,6 +18,8 @@ Tech Stack:
 -   **Authorization and Access Control**: Relies on Supabase's RLS policies to guarantee authorized access to data.
 -   **Dynamic UI with TailwindCSS and shadCN UI**: Build responsive and modern user interfaces.
 -   **Comprehensive Role Management**: Efficiently manage user roles within organizations which can be extended to have granular access control.
+
+![image](https://raw.githubusercontent.com/toughyear/blog-uploads/main/uploads/helium/dashboard.png)
 
 ## Getting Started
 
